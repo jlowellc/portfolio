@@ -48,7 +48,7 @@ header {
 }
 
 main {
-	padding: 4rem;
+	padding: 2rem;
 	min-height: calc(100vh);
 
 	.icons {
@@ -138,12 +138,12 @@ main {
 	div {
 		font-size: 1.5rem;
 		border: 3px #fff solid;
-		padding: 1.75rem 2.5rem;
+		padding: 0.5rem 1.5rem;
 		margin-bottom: 1rem;
 		@include easeOut;
 
 		&:hover {
-			padding: 0.5rem 1.5rem;
+			padding: 1.5rem 1.5rem;
 			background: $secondary-color;
 			color: set-text-color($secondary-color);
 			span {
