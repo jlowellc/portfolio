@@ -119,10 +119,6 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400; }
-  h1.xl-heading,
-  h2.xl-heading,
-  h3.xl-heading {
-    font-size: 6rem; }
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
@@ -131,7 +127,7 @@ h3 {
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem; }
+    padding: 0.2rem 0.5rem; }
 
 a {
   color: #fff;
@@ -172,7 +168,7 @@ main {
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.0rem; }
+    font-size: 1rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -282,7 +278,7 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
   .projects {

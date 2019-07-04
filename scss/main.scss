@@ -22,17 +22,13 @@ h3 {
 	margin: 0;
 	font-weight: 400;
 
-	&.xl-heading {
-		font-size: 6rem;
-	}
-
 	&.lg-heading {
 		font-size: 4rem;
 	}
 
 	&.sm-heading {
 		margin-bottom: 2rem;
-		padding: 0.2rem 1rem;
+		padding: 0.2rem 0.5rem;
 	}
 }
 
@@ -93,7 +89,7 @@ main {
 
 	.bio {
 		grid-area: bio;
-		font-size: 1.0rem;
+		font-size: 1rem;
 	}
 
 	.job-1 {
@@ -190,7 +186,6 @@ main {
 	position: relative;
 	bottom: 0;
 	width: 100%;
-
 }
 
 @import 'mobile';
