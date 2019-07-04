@@ -5,13 +5,11 @@
 	"main": "index.js",
 	"homepage": "https://jlowellc.github.io/Portfolio/",
 	"scripts": {
-		"sass": "node-sass -w scss/ -o dist/css/ -r",
-		"deploy": "gh-pages -d dist"
+		"sass": "node-sass -w scss/ -o dist/css/ -r"
 	},
 	"author": "Jim Carter",
 	"license": "MIT",
 	"dependencies": {
-		"gh-pages": "^2.0.1",
 		"node-sass": "^4.12.0"
 	}
 }
